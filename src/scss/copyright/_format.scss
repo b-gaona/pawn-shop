@@ -1,0 +1,57 @@
+.copyright {
+  padding: 0.5rem 1.5rem;
+}
+.nav-scroller {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navbar-nav {
+  padding-top: 1.5rem;
+}
+.last-item {
+  justify-self: flex-start;
+}
+.center {
+  margin: 0 auto;
+}
+.alerta {
+  display: block;
+  animation-name: desaparecer;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards; //Para que mantenga la posicion de la animacion final
+
+  @keyframes desaparecer {
+    0% {
+      height: auto;
+      width: auto;
+      opacity: 1;
+    }
+    95% {
+      height: auto;
+      width: auto;
+      opacity: 1;
+    }
+    98% {
+      height: auto;
+      width: auto;
+      opacity: 0;
+    }
+    100% {
+      height: 0;
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+}
+.dataTables_filter {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  label{
+    input{
+      text-indent: 0.5rem;
+      height: 2.2rem;
+    }
+  }
+}

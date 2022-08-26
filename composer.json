@@ -1,0 +1,21 @@
+{
+    "name": "brand/proyecto",
+    "description": "App casa de presta prenda",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./model",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "br-gaona",
+            "email": "brandongaona03@hotmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}

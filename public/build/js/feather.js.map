@@ -1,0 +1,1 @@
+{"version":3,"sources":["feather.js"],"names":["feather","replace"],"mappings":"AAGEA,QAAQC","file":"feather.js","sourcesContent":["// feather\n\n(function () {\n  feather.replace();\n})();\n"]}

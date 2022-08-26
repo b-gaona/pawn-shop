@@ -1,0 +1,59 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+p{
+  margin: 0;
+}
+table{
+  border-collapse: collapse;
+}
+th, td{
+  border: solid 1px black;
+}
+td{
+  text-align: center;
+}
+.hoja{
+  margin: 0 auto;
+  width: 21.6cm;
+  height: 26.9cm;
+  padding: 1rem;
+}
+.row{
+  border: solid 1px black;
+}
+.block{
+  display: block;
+}
+.flex{
+  display: flex;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.gap-2{
+  gap: 2rem;
+}
+.smallest{
+  font-size: 1rem;
+}
+.small{
+  font-size: 1.1rem;
+}
+.small-1{
+  font-size: 1.2rem;
+}
+.small-2{
+  font-size: 1.3rem;
+}
+.back-blue{
+  background-color: #BDD7EE;
+}
